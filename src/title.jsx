@@ -10,14 +10,14 @@ import Abar from "./abar";
 
 export default withStyles({
   root: {
-    background: "#03A9F4",
+    background: "#673AB7",
     fontFamily: "Ubuntu",
     textAlign: "center",
     overflow: "auto",
   },
   button: {
     color: "#212121",
-    background: "#00BCD4",
+    background: "#D32F2F",
     width: '15rem',
     fontSize: '1.5rem',
     fontFamily: 'Ubuntu',
@@ -50,43 +50,37 @@ export default withStyles({
     color: "#F5F5F5",
     textDecoration: "underline",
   },
-  //this is lazy but i dont really care bloody css isnt help'n me rn
-  lbreak: {
+    lbreak: {
     height: '4rem',
   },
   buttonlicense: {
     color: "#212121",
-    background: "#00BCD4",
+    background: "#D32F2F",
     width: '3rem',
     fontSize: '.6rem',
     fontFamily: 'Ubuntu',
   },
-  spoopymarquee: {
-    fontSize: '.01rem',
-    color: "#F5F5F5",
-  },
+
 })(({ classes }) => (
   <div className={classes.root} >
     <Abar />
     <br />
     <p className={classes.lbreak}>​​​​​</p>
-    <img className={classes.guidosmol} src='https://i.imgur.com/J5O7LWN.jpg' alt="guido"/>
     <div className={classes.padding} />
     <Link to='/content'><Button className={classes.button}>
       A bit about Guido!
     </Button>
     </Link>
     <p className={classes.text}>
-      Guido van Rossum is the talented, wonderful creator of Python!
+      The Thirteenth Amendment was the main slavery ending amendment, passed after the Civil War
+      it stopped slavery and involuntary servitude except as a punishment from the state for a crime.
     </p>
     <p className={classes.textnopadding}>
-     <a rel="noopener noreferrer" target="_blank" href="mailto:cheesedip123456789@gmail.com"> <div className={classes.citetext}> To email the creator of this website click here </div> </a>
      <Link to='/licenses'>
       <Button className={classes.buttonlicense}>
       Licenses
       </Button>
        </Link>
     </p>
-    <marquee />
   </div>
 ));

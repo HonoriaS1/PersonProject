@@ -1,11 +1,12 @@
 {
-  "name": "special-person-project",
+  "name": "spicy-unit-5-project",
   "version": "1.0.0",
   "repository": "https://github.com/HonoriaShana/PersonProject",
   "author": "Honoria Shana",
-  "description": "This is about Guido van Rossum",
+  "description": "This is about the wonderful reconstruction amendments!",
   "license": "MIT",
   "dependencies": {
+    "@babel/runtime": "7.0.0-beta.46",
     "babel-loader": "^7.1.2",
     "cheerio": "^1.0.0-rc.2",
     "concurrently": "^3.5.1",
@@ -46,5 +47,6 @@
         "^/\\.netlify/functions": ""
       }
     }
-  }
+  },
+  "keywords": []
 }

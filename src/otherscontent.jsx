@@ -49,7 +49,6 @@ export default withStyles({
   <div>
     <Abar />
     <p className={classes.lbreak}>​​ </p>
-    <h1 className={classes.text}><div className={classes.citetext}>  Image of Guido van Rossum By Daniel Stroud [<a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>], <a href="https://commons.wikimedia.org/wiki/File:Guido-portrait-2014.jpg">from Wikimedia Commons</a></div></h1>
     <p className={classes.text}>MIT License <br /> <br />
 
 Copyright (c) 2018 Ginkoid

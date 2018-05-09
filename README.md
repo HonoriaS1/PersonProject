@@ -1,4 +1,3 @@
-# PersonProject
-Guido van Rossum! Special edition. A nice website about Guido van Rossum!
+# Spicy Reconstruction
 
-To be hosted on https://guidovanrossum.ml!
+This is about the Reconstruction Amendments passed after the American Civil War!

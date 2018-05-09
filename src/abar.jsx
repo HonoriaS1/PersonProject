@@ -8,16 +8,16 @@ import AppBar from "material-ui/AppBar";
 export default withStyles({
   tnav: {
     color: "#E0E0E0",
-    background: "#29B6F6",
-    height: "5rem",
+    background: "#7E57C2",
+    height: "3.15rem",
     bottom: 0,
-    fontSize: '3.8rem',
+    fontSize: '2.8rem',
   }
 })(({ classes }) => (
   <div>
     <AppBar className={classes.tnav}>
     <Link to='/'>
-      <div>Guido van Rossum</div>
+      <div>The Reconstruction Amendments</div>
     </Link>
     </AppBar>
   </div>
