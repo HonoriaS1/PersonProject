@@ -64,24 +64,14 @@ export default withStyles({
     <Abar />
     <p className={classes.lbreak}>​​ </p>
     <Link to='/'>
-    <Button className={classes.button}>
-    Back to the Home Page
+      <Button className={classes.button} variant='raised'>
+    Back to the Thirteenth Amendment
     </Button>
     </Link>
-    <h1 className={classes.text}>The logo of Python, Guido{'\''}s main invention! </h1>
-    <hr />
-    <h2 className={classes.text}>After creating Python, Van Rossum worked at many top tier technology companies! </h2>
-    <hr className={classes.line2} />
-    <h3 className={classes.text}>Some of these companies that Van Rossum worked for were Google and Dropbox! </h3>
-    <hr className={classes.line3} />
-    <h4 className={classes.text}>While he is still Benevolent Dictator for Life (<span className={classes.itiboi}>BDFL</span>) of Python, he mainly works on Dropbox now, mostly overseeing large changes to the language. </h4>
-    <hr className={classes.line4} />
-    <h5 className={classes.text}>Van Rossum was born in 1956, a wee bit before the modern computer was invented. </h5>
-    <h6 className={classes.smolesttext}>He is also from Haarlem, Netherlands — the namesake of the neighboorhood in Manhattan. </h6>
-    <p />
+  <p />
     <Link to='/content2'>
-      <Button className={classes.button2}>
-        To the next page
+      <Button className={classes.button2} variant='raised'>
+        To the Fourteenth Amendment
     </Button>
     </Link>
 

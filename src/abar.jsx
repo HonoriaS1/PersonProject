@@ -9,9 +9,9 @@ export default withStyles({
   tnav: {
     color: "#E0E0E0",
     background: "#7E57C2",
-    height: "3.15rem",
+    height: "6%",
     bottom: 0,
-    fontSize: '2.8rem',
+    fontSize: '225%',
   }
 })(({ classes }) => (
   <div>
