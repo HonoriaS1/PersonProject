@@ -18,6 +18,7 @@ export default withStyles({
     color: "#212121",
     background: "#81D4FA",
     width: '25%',
+    height: '12.5%',
     fontSize: '150%',
     fontFamily: 'Ubuntu',
   },
@@ -45,8 +46,8 @@ export default withStyles({
   buttonlicense: {
     color: "#212121",
     background: "#81D4FA",
-    width: '3rem',
-    fontSize: '.6rem',
+    width: '3%',
+    fontSize: '35%',
     fontFamily: 'Ubuntu',
   },
 
