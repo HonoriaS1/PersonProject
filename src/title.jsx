@@ -19,6 +19,7 @@ export default withStyles({
     display: 'block',
     background: "#81D4FA",
     width: '25%',
+    height: '12.5%',
     fontSize: '150%',
     fontFamily: 'Ubuntu',
     marginTop: '15%',
