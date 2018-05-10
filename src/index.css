@@ -10,10 +10,10 @@
 body {
     padding: 0;
     margin: 0;
-    background: #673AB7;
-    overflow: hidden;
+    background: #0D47A1;
     color: #cecece;
     font-family: 'Ubuntu', 'Arial', sans-serif;
+    overflow: auto;
 }
 
 a {
