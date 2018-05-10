@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import withStyles from 'material-ui/styles/withStyles'
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import Button from 'material-ui/Button'
-import Abar from './abar'
+import Abar from './abarUnion'
 
 export default withStyles({
   root: {
