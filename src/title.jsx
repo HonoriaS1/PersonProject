@@ -6,20 +6,24 @@ import { Button, Paper, Grid } from "material-ui";
 import BottomNavigation, {
   BottomNavigationAction
 } from "material-ui/BottomNavigation";
-import Abar from "./abar";
+import Abar from "./abarUnion";
 
 export default withStyles({
   root: {
-    background: "#673AB7",
+    background: "#0D47A1",
     fontFamily: "Ubuntu",
     textAlign: "center",
   },
   button: {
     color: "#212121",
+    display: 'block',
     background: "#81D4FA",
     width: '25%',
     fontSize: '150%',
     fontFamily: 'Ubuntu',
+    marginTop: '15%',
+    marginLeft: 'auto',
+    marginRight: '2%',
   },
   text: {
     fontFamily: "Ubuntu",
@@ -37,17 +41,20 @@ export default withStyles({
     fontSize: "300%",
   },
   jamesiboi: {
-    width: '12.5%',
+    width: '15%',
   },
     lbreak: {
-    height: '2rem',
+    height: '2%',
   },
   buttonlicense: {
     color: "#212121",
     background: "#81D4FA",
-    width: '3rem',
-    fontSize: '.6rem',
+    width: '3%',
+    fontSize: '25%',
     fontFamily: 'Ubuntu',
+  },
+  specialLicenseBreak: {
+    fontSize: '200%'
   },
 
 })(({ classes }) => (
@@ -59,14 +66,15 @@ export default withStyles({
        <img className={classes.jamesiboi} src='https://i.imgur.com/wVGcsha.jpg' alt='James Mitchell Ashley' />
     <p className={classes.text}>
       The Thirteenth Amendment was the slavery ending amendment, passed after the Civil War
-      it stopped slavery and involuntary servitude except as a punishment from the state for a crime. The man pictured here is James Mitchell Ashley (he was from Allegheny County), the person who created the 13th Amendment
-      and an abolitionist who visited the hanging of John Brown.
+      it stopped slavery and involuntary servitude except as a punishment from the state for a crime. The man pictured here is James Mitchell Ashley (he was from Allegheny County), the man who created the 13th Amendment
+      and visited the hanging of John Brown.
     </p>
       <Link to='/content'>
       <Button className={classes.button} variant='raised'>
          The South{'\''}s Response
         </Button>
     </Link>
+      <p className={classes.specialLicenseBreak}>​​​​ ​</p>
     <p className={classes.textnopadding}>
         <Link to='/licenses'>
         <Button className={classes.buttonlicense} variant='raised'>
