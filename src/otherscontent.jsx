@@ -16,7 +16,7 @@ export default withStyles({
   },
   button: {
     color: "#212121",
-    background: "#00BCD4",
+    background: "#81D4FA",
     width: '10rem',
     fontSize: '1rem',
     fontFamily: 'Ubuntu',

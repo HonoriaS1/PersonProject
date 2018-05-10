@@ -27,9 +27,9 @@ export default withStyles({
     marginLeft: 'auto',
     marginRight: '2%',
   },
-  jamesiboi: {
-    paddingTop: '5%',
-    width: '25%',
+  pythonimage: {
+    width: '10rem',
+    height: '10rem',
   },
   text: {
     fontFamily: "Ubuntu",
@@ -52,29 +52,25 @@ export default withStyles({
     fontStyle: 'italic',
     color: "#F5F5F5",
   },
-
+  jamesiboi: {
+    paddingTop: '5%',
+    width: '25%',
+  },
 })(({ classes }) => (
   <div className={classes.root}>
     <Abar />
     <p className={classes.lbreak}>​​ </p>
-    <Link to='/'>
+    <Link to='/content4'>
       <Button className={classes.buttonback} variant='raised'>
-    Back to the Thirteenth Amendment
+        Back to the Fifteenth Amendment
     </Button>
     </Link>
-    <img className={classes.jamesiboi} src='https://i.imgur.com/ZgK4SvP.jpg' alt='13' />
     <p className={classes.text}>
-    The Southern states responded to the Thirteenth Amendment with one of the many loop holes to come in this story,
-    because of the clause that lets slavery / involuntary servitude be used as a criminal punishment
-    states would make rascist laws targeting African Americans that would have them be incarcerated for things like homelessness and then
-    have them put to work akin to how it was before.
+      The South{'\''}s final response was with Jim Crow laws (named after a rascist song) to instate segregation.
+      Jim Crow laws were created in the South after the American Civil War and unlike some of these other laws in the South, Jim Crow laws were not short lived.
+      They lasted until 1965 when they were finally considered unconstitutional. Many suits in the Supreme Court of the United States were brought up because of these segregational laws, but for around one hundred years they were considered unconstitutional.
     </p>
-  <p />
-    <Link to='/content2'>
-      <Button className={classes.buttonnext} variant='raised'>
-        To the Fourteenth Amendment
-    </Button>
-    </Link>
+    <p />
 
   </div>
 ))

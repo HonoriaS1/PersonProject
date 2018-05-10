@@ -3,11 +3,11 @@ import { render } from 'react-dom';
 import withStyles from 'material-ui/styles/withStyles'
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import Button from 'material-ui/Button'
-import Abar from './abarConfederate'
+import Abar from './abarUnion'
 
 export default withStyles({
   root: {
-    background: '#616161',
+    background: '#09D47A1',
     fontFamily: 'Ubuntu',
     textAlign: 'center',
     height: "100vh",
@@ -27,9 +27,9 @@ export default withStyles({
     marginLeft: 'auto',
     marginRight: '2%',
   },
-  jamesiboi: {
-    paddingTop: '5%',
-    width: '25%',
+  pythonimage: {
+    width: '10rem',
+    height: '10rem',
   },
   text: {
     fontFamily: "Ubuntu",
@@ -52,27 +52,31 @@ export default withStyles({
     fontStyle: 'italic',
     color: "#F5F5F5",
   },
-
+  jamesiboi: {
+    paddingTop: '5%',
+    width: '25%',
+  },
 })(({ classes }) => (
   <div className={classes.root}>
     <Abar />
     <p className={classes.lbreak}>​​ </p>
-    <Link to='/'>
+    <Link to='/content3'>
       <Button className={classes.buttonback} variant='raised'>
-    Back to the Thirteenth Amendment
+        Back to the South{'\''}s second response!
     </Button>
     </Link>
-    <img className={classes.jamesiboi} src='https://i.imgur.com/ZgK4SvP.jpg' alt='13' />
+    <img className={classes.jamesiboi} src='https://i.imgur.com/0dOCXPe.jpg' alt='15' />
     <p className={classes.text}>
-    The Southern states responded to the Thirteenth Amendment with one of the many loop holes to come in this story,
-    because of the clause that lets slavery / involuntary servitude be used as a criminal punishment
-    states would make rascist laws targeting African Americans that would have them be incarcerated for things like homelessness and then
-    have them put to work akin to how it was before.
+    The Fifteenth Amendment was used to abolish grandfather clauses, they prohibited the denial of suffrage because
+    of ones {'\''}race, color, or previous conditon of servitude{'\''}, essentially making all grandfather clauses void.
+    One aspect that has not been discussed here is that for the 13th, 14th, and 15th Amendments to the Constitution, there is a section
+    at the end stating that {'\''}Congress shall have the power to enforce this article by appropriate legislation{'\''} or some phrase alike it.
+    This was also used by Congress to suppliment these Amendments with additional federal laws.
     </p>
-  <p />
-    <Link to='/content2'>
+    <p />
+    <Link to='/content5'>
       <Button className={classes.buttonnext} variant='raised'>
-        To the Fourteenth Amendment
+        To the South{'\''}s third response!
     </Button>
     </Link>
 

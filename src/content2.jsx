@@ -3,11 +3,11 @@ import { render } from 'react-dom';
 import withStyles from 'material-ui/styles/withStyles'
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import Button from 'material-ui/Button'
-import Abar from './abarConfederate'
+import Abar from './abarUnion'
 
 export default withStyles({
   root: {
-    background: '#616161',
+    background: '#09D47A1',
     fontFamily: 'Ubuntu',
     textAlign: 'center',
     height: "100vh",
@@ -27,9 +27,9 @@ export default withStyles({
     marginLeft: 'auto',
     marginRight: '2%',
   },
-  jamesiboi: {
-    paddingTop: '5%',
-    width: '25%',
+  pythonimage: {
+    width: '10rem',
+    height: '10rem',
   },
   text: {
     fontFamily: "Ubuntu",
@@ -52,27 +52,29 @@ export default withStyles({
     fontStyle: 'italic',
     color: "#F5F5F5",
   },
-
+  jamesiboi: {
+    paddingTop: '5%',
+    width: '25%',
+  },
 })(({ classes }) => (
   <div className={classes.root}>
     <Abar />
     <p className={classes.lbreak}>​​ </p>
-    <Link to='/'>
+    <Link to='/content'>
       <Button className={classes.buttonback} variant='raised'>
-    Back to the Thirteenth Amendment
+        Back to the South{'\''}s first response!
     </Button>
     </Link>
-    <img className={classes.jamesiboi} src='https://i.imgur.com/ZgK4SvP.jpg' alt='13' />
+    <img className={classes.jamesiboi} src='https://i.imgur.com/WDyH2fu.jpg' alt='14' />
     <p className={classes.text}>
-    The Southern states responded to the Thirteenth Amendment with one of the many loop holes to come in this story,
-    because of the clause that lets slavery / involuntary servitude be used as a criminal punishment
-    states would make rascist laws targeting African Americans that would have them be incarcerated for things like homelessness and then
-    have them put to work akin to how it was before.
+    The Fourteenth Amendment fixed some of the racist issues that were plaging part of the Union, particularly the loop holes that were discussed prior.
+    This Amentment to the Constitution made the law equal for all citizens, made all American born people citizens (except Native Americans)
+    the ability for all males above 21 to vote, and made some other less important changes. (see the actual Amendment from the home page to learn about these)
     </p>
-  <p />
-    <Link to='/content2'>
+    <p />
+    <Link to='/content3'>
       <Button className={classes.buttonnext} variant='raised'>
-        To the Fourteenth Amendment
+        To the South{'\''}s second response!
     </Button>
     </Link>
 

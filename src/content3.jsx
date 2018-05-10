@@ -27,9 +27,9 @@ export default withStyles({
     marginLeft: 'auto',
     marginRight: '2%',
   },
-  jamesiboi: {
-    paddingTop: '5%',
-    width: '25%',
+  pythonimage: {
+    width: '10rem',
+    height: '10rem',
   },
   text: {
     fontFamily: "Ubuntu",
@@ -52,27 +52,29 @@ export default withStyles({
     fontStyle: 'italic',
     color: "#F5F5F5",
   },
-
+  jamesiboi: {
+    paddingTop: '5%',
+    width: '25%',
+  },
 })(({ classes }) => (
   <div className={classes.root}>
     <Abar />
     <p className={classes.lbreak}>​​ </p>
-    <Link to='/'>
+    <Link to='/content2'>
       <Button className={classes.buttonback} variant='raised'>
-    Back to the Thirteenth Amendment
+        Back to the Fourteenth Amendment
     </Button>
     </Link>
-    <img className={classes.jamesiboi} src='https://i.imgur.com/ZgK4SvP.jpg' alt='13' />
     <p className={classes.text}>
-    The Southern states responded to the Thirteenth Amendment with one of the many loop holes to come in this story,
-    because of the clause that lets slavery / involuntary servitude be used as a criminal punishment
-    states would make rascist laws targeting African Americans that would have them be incarcerated for things like homelessness and then
-    have them put to work akin to how it was before.
+    Like with the Thirteenth Amendment, the Southern States were eager and ready to use even more loop holes to disenfranchise African Americans.
+    This time they used illegal violence, poll taxes, literacy tests, and grandfather clauses to stop them from voting. Poll taxes and literacy tests were frequently used because many recently freed
+    slaves were poor and illiterate. Grandfather clauses were the most sneaky of these; laws about voters grandfathers eligibility or the dates at which one could vote were used because they specifically
+    singled out African Americans.
     </p>
-  <p />
-    <Link to='/content2'>
+    <p />
+    <Link to='/content4'>
       <Button className={classes.buttonnext} variant='raised'>
-        To the Fourteenth Amendment
+        To the Fifteenth Amendment
     </Button>
     </Link>
 

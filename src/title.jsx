@@ -10,21 +10,29 @@ import Abar from "./abarUnion";
 
 export default withStyles({
   root: {
-    background: "#0D47A1",
+    background: "#09D47A1",
     fontFamily: "Ubuntu",
     textAlign: "center",
+    height: "100vh",
+    width: "100vw",
   },
   button: {
     color: "#212121",
     display: 'block',
     background: "#81D4FA",
-    width: '25%',
-    height: '12.5%',
+    height: '5%',
     fontSize: '150%',
     fontFamily: 'Ubuntu',
     marginTop: '15%',
     marginLeft: 'auto',
     marginRight: '2%',
+  },
+  amendmentbutton: {
+    color: "#212121",
+    background: "#81D4FA",
+    height: '5%',
+    fontSize: '150%',
+    fontFamily: 'Ubuntu',
   },
   text: {
     fontFamily: "Ubuntu",
@@ -55,7 +63,7 @@ export default withStyles({
     fontFamily: 'Ubuntu',
   },
   specialLicenseBreak: {
-    fontSize: '200%'
+    fontSize: '50%'
   },
 
 })(({ classes }) => (
@@ -65,6 +73,12 @@ export default withStyles({
     <p className={classes.lbreak}>​​​​​</p>
       <div className={classes.padding} />
        <img className={classes.jamesiboi} src='https://i.imgur.com/wVGcsha.jpg' alt='James Mitchell Ashley' />
+       <p />
+       <Link to='/amendments'>
+         <Button className={classes.amendmentbutton} variant='raised'>
+           The Text of the Amendments
+        </Button>
+       </Link>
     <p className={classes.text}>
       The Thirteenth Amendment was the slavery ending amendment, passed after the Civil War
       it stopped slavery and involuntary servitude except as a punishment from the state for a crime. The man pictured here is James Mitchell Ashley (he was from Allegheny County), the man who created the 13th Amendment
@@ -77,7 +91,7 @@ export default withStyles({
     </Link>
       <p className={classes.specialLicenseBreak}>​​​​ ​</p>
     <p className={classes.textnopadding}>
-        <Link to='/licenses'>
+      <Link to='/licenses' >
         <Button className={classes.buttonlicense} variant='raised'>
         Licenses
         </Button>

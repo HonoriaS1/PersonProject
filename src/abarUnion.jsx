@@ -16,7 +16,7 @@ export default withStyles({
 })(({ classes }) => (
   <div>
     <AppBar className={classes.tnav}>
-    <Link to='/'>
+      <Link to='/'>
       <div>The Reconstruction Amendments</div>
     </Link>
     </AppBar>
